@@ -1,0 +1,26 @@
+#hero{
+    background-image:url(images/BG.jpg);
+    background-size:cover;
+    position:relative;
+    height:100vh;
+}
+
+a {
+color : #F5F5F5 !important;
+
+}
+
+nav{
+  font-size: 125%;
+}
+
+.navbar {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 33%, rgba(0,0,0,0.11) 89%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.navbar-nav {
+  position : absolute;
+  right: 3%;
+}
