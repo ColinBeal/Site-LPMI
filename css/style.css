@@ -44,7 +44,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,
   left: 3%;
   color : #F5F5F5;
   text-align: justify;
-
+  margin-top: 7%;
 }
 h1{
   font-family: 'Montserrat', sans-serif;}
@@ -63,7 +63,7 @@ h3{
 }
 .textecontent{
   margin-top: 2%;
-  margin-left: 1%
+  margin-left: 3%
 }
 
 .content-img{

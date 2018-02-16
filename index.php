@@ -21,72 +21,36 @@
   </head>
       <body>
 
-
-<div id="hero">
-
-        <div class="row barrenav navbar-collapse">
-          <div class="container-fluid">
-            <div class="col-md-3">
-              <a href="#top"><img src="images/logo.png" alt="LPMI" class="img-responsive"></a>
-            </div>
-            <div class="col-md-2 nav">
-            </div>
-
-            <div class="col-md-2 col-sm-hidden col-xs-hidden nav">
-              <a href="#real">Présentation </a>
-            </div>
-            <div class="col-md-3 col-sm-hidden col-xs-hidden nav">
-              <a href="#skills"> Unité d'enseignements</a>
-            </div>
-            <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
-              <a href="#contact">Projets</a>
-            </div>
-            <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
-              <a href="#contact">Candidater</a>
-            </div>
-
-
-
-          </div>
-        </div>
-        <div class="maintitle row">
-            <h1 class="underline"> Licence profesionnelle métiers de l'internet </h1>
-        <div class="col-md-9">
-            </br>
-            <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
-            <a href="presentation.html">
-              <h4 class="underline"> Découvrir la formation </h4></a>
-      </div>
-          </div>
-        </div>
+        <?php
+          include "all.php" ;
+          include "entete_page.php";
+        ?>
 
         <div class="content-bleu row">
           <div class="col-md-6 textecontent">
             <h3 class="underline">La Formation</h3>
-
            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
-           <a href="lpmi.html" class="underline">Découvrir la formation </a>
+           <a href="lpmi.php" class="underline">Découvrir la formation </a>
           </div>
           <div class="col-md-5 col-sm-12 col-xs-12 content-img">
             <img src="images/lpmi.png" alt="LPMI" class="img-responsive">
           </div>
         </div>
-        <div class="row content">
 
+        <div class="row content">
           <div class="col-md-5 content-img">
             <img src="images/ue.png" alt="LPMI" class="img-responsive">
           </div>
           <div class="col-md-6 textecontent">
             <h3 class="underline">Unité d'enseignement</h3>
-
            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
-            <a href="ue.html" class="bleu underline">Parcourir les unités d'enseignements </a>
+            <a href="ue.php" class="bleu underline">Parcourir les unités d'enseignements </a>
           </div>
         </div>
+
         <div class="row content-bleu ">
           <div class="col-md-6 textecontent">
             <h3 class="underline">Projets étudiants</h3>
-
            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
             <a href="" class="underline">Visionner les projets  </a>
           </div>
@@ -94,14 +58,13 @@
             <img src="images/projet.png" alt="LPMI" class="img-responsive ">
           </div>
         </div>
-        <div class="content row">
 
+        <div class="content row">
           <div class="col-md-5 content-img">
             <img src="images/candidater.png" alt="LPMI" class="img-responsive">
           </div>
           <div class="col-md-6 textecontent">
             <h3 class="underline">S'inscrire</h3>
-
            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
             <a href="" class="bleu underline">Candidater  </a>
           </div>
