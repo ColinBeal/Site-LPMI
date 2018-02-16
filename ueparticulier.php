@@ -14,7 +14,7 @@
   }
   else
   {
-    header('Location: unite_enseignement_liste.php');
+    header('Location: ue.php');
     exit;
   }
 
@@ -105,7 +105,7 @@
     	}
       else
     	{
-        header('Location: unite_enseignement_liste.php');
+        header('Location: ue.php');
         exit;
     	}
     ?>

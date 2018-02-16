@@ -32,7 +32,7 @@
         {
           $_SESSION["login"] = $_POST["login"];
           $_SESSION["password"] = $_POST["password"];
-          echo "connexion reussi";
+          
           header('Location: ?');
           exit;
         }
@@ -49,15 +49,13 @@
     <form action='#' method='post'>
       <div>
         <div>
-          <div>
-            <p>Login <input type='text' name='login' required/></p>
-            <p>Mot de passe <input type='password' name='password' required/></p>
-          </div>
-          <p>
-            <input type='submit' name='submit' value='connexion'/>
-            <input type='submit' name='submit' value='enregistrement'/>
-          </p>
+          <p>Login <input type='text' name='login' required/></p>
         </div>
+        <div>
+          <p>Mot de passe <input type='password' name='password' required/></p>
+        </div>
+        <input type='submit' name='submit' value='connexion'/>
+        <input type='submit' name='submit' value='enregistrement'/>
       </div>";
 
       if(isset($_GET["log"]))

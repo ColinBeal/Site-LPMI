@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+<?php
+  session_start();
+
+  include "checkreset.php";
+  include 'connectdb.php' ;
+?>
+
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
