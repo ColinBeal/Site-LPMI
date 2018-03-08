@@ -87,7 +87,7 @@
             <br/>
             <p data-aos="zoom-in-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
             <br/>
-            <p data-aos="fade"><a href="" class="bleu underline">Candidater</a></p>
+            <p data-aos="fade"><a href="http://informatique-ufrst.u-bourgogne.fr/formations/detail/2" class="bleu underline">Candidater</a></p>
           </div>
         </div>
 
