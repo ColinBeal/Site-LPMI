@@ -1,4 +1,12 @@
 <?php
+  if(isset($_POST["reset"]))
+  {
+    session_unset();
+    session_destroy();
+    header('Location: index.php');
+    exit;
+  }
+
   if (!isset($_SESSION["login"]) && !isset($_SESSION["password"]))
   {
     if (isset($_POST["login"]) && isset($_POST["password"]))
@@ -32,7 +40,7 @@
         {
           $_SESSION["login"] = $_POST["login"];
           $_SESSION["password"] = $_POST["password"];
-          
+
           header('Location: ?');
           exit;
         }
@@ -83,8 +91,8 @@
     ";
 
     echo "
-      <form action='?reset=true' method='post'>
-        <input type='submit' value='deconnexion'/>
+      <form action='?' method='post'>
+        <input type='submit' name='reset' value='deconnexion'/>
       </form>";
   }
 ?>
