@@ -1,21 +1,28 @@
-body, html {
+body, html
+{
     height: 100%;
   font-size: 110%;
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
+    background: url("../images/BG.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
         font-family: 'Domine', sans-serif;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    color: white;
 }
 
 
-#hero{
+#hero
+{
 
- background-image: url("../images/BG.jpg");
-
- height: 100%;
+ /*background-image: url("../images/BG.jpg");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- position: relative;
+ position: relative;*/
+ background-color: transparent;
+ text-align: center;
+ height: 100%;
 }
 
 a {
@@ -29,8 +36,8 @@ nav{
 
 .barrenav {
   background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 33%, rgba(0,0,0,0.11) 89%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,rgba(0,0,0,0.11) 89%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .navbar-nav {
@@ -40,11 +47,11 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 33%,
 
 .maintitle{
   position: absolute;
-  top: 32%;
+  /*top: 32%;*/
   left: 3%;
   color : #F5F5F5;
   text-align: justify;
-
+  margin-top: 7%;
 }
 h1{
   font-family: 'Montserrat', sans-serif;}
@@ -60,10 +67,12 @@ h3{
 .content-bleu{
   background-color: #22313F;
   color : #F5F5F5;
+  border: 5px solid white;
+  border-image: linear-gradient(to bottom, #972E5F, rgba(0, 0, 0, 0)) 1 100%;
 }
 .textecontent{
   margin-top: 2%;
-  margin-left: 1%
+  margin-left: 5%
 }
 
 .content-img{
@@ -77,9 +86,20 @@ a{
     font-size: 85%;
 }
 .bleu{
-  color:#22313F !important;
+  /*color:#22313F !important;*/
 }
 .underline{
   text-decoration: underline;
     text-decoration-color: #972E5F;
+}
+
+input
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #972E5F;
+}
+
+#login
+{
+  display: none;
 }
