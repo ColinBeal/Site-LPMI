@@ -5,16 +5,16 @@
         <a href="index.php"><img src="images/logo.png" alt="LPMI" class="img-responsive"></a>
       </div>
       <div class="col-md-2 col-sm-hidden col-xs-hidden nav">
-        <a href="#real">Présentation </a>
+        <a href="presentation.php">Présentation </a>
       </div>
       <div class="col-md-3 col-sm-hidden col-xs-hidden nav">
         <a href="ue.php"> Unité d'enseignements</a>
       </div>
       <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
-        <a href="#contact">Projets</a>
+        <a href="projet.php">Projets</a>
       </div>
       <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
-        <a href="#contact">Candidater</a>
+        <a href="http://informatique-ufrst.u-bourgogne.fr/formations/detail/2">Candidater</a>
       </div>
       <div class="col-md-2 nav">
         <a href="connexion.php">Connexion</a>
