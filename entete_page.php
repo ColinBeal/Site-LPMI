@@ -7,17 +7,17 @@
       <div class="col-md-2 col-sm-hidden col-xs-hidden nav">
         <a href="#real">Présentation </a>
       </div>
-      <div class="col-md-2 col-sm-hidden col-xs-hidden nav">
+      <div class="col-md-3 col-sm-hidden col-xs-hidden nav">
         <a href="ue.php"> Unité d'enseignements</a>
       </div>
       <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
         <a href="#contact">Projets</a>
       </div>
-      <div class="col-md-2 col-sm-hidden col-xs-hidden nav">
+      <div class="col-md-1 col-sm-hidden col-xs-hidden nav">
         <a href="#contact">Candidater</a>
       </div>
       <div class="col-md-2 nav">
-        <input id="but_log" type="button" value="Login / Register"/>
+        <a href="connexion.php">Connexion</a>
       </div>
     </div>
   </div>

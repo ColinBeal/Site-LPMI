@@ -8,19 +8,3 @@ $(window).on('load', function ()
 {
   AOS.refresh();
 });
-
-
-var i =0;
-$("#but_log").click(function()
-{
-  if (i == 0)
-  {
-    $("#login").show();
-    i = 1;
-  }
-  else if (i == 1)
-  {
-    $("#login").hide();
-    i = 0;
-  }
-});
