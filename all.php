@@ -11,15 +11,17 @@
   {
     if (isset($_POST["login"]) && isset($_POST["password"]))
     {
+      $password = htmlentities($_POST["password"]);
+      $login = htmlentities($_POST["login"]);
 
       if ($_POST["submit"]=="enregistrement")
       {
-        $sql = "INSERT INTO utilisateurs (login, pass) VALUES ('" .$_POST["login"]. "','" .$_POST["password"]. "')";
-
-        if($result2 = mysqli_query($conn, $sql))
+        $sql = "INSERT INTO utilisateurs (login, pass) VALUES ('" .$login. "','" .$password. "')";
+        $result2 = mysqli_query($conn, $sql);
+        if($result2==true)
         {
-          $_SESSION["login"] = $_POST["login"];
-          $_SESSION["password"] = $_POST["password"];
+          $_SESSION["login"] = $login;
+          $_SESSION["password"] = $password;
           header('Location: ?');
           exit;
         }
@@ -33,13 +35,13 @@
 
       if($_POST["submit"]=="connexion")
       {
-        $sql = "SELECT id FROM utilisateurs WHERE login='".$_POST["login"]."' AND pass='".$_POST["password"]."'";
-        echo "connexion";
+
+        $sql = "SELECT id FROM utilisateurs WHERE login='".$login."' AND pass='".$password."'";
         $result2 = mysqli_query($conn, $sql);
         if(mysqli_num_rows($result2)>0)
         {
-          $_SESSION["login"] = $_POST["login"];
-          $_SESSION["password"] = $_POST["password"];
+          $_SESSION["login"] = $login;
+          $_SESSION["password"] = $password;
 
           header('Location: ?');
           exit;
