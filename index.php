@@ -30,11 +30,9 @@
 
   </head>
       <body>
-        <div id="login" class="row content-bleu">
-          <?php
-            include "all.php";
-          ?>
-        </div>
+
+
+
         <?php
           include "entete_page.php";
         ?>
@@ -65,9 +63,9 @@
           </div>
         </div>
 
-        <div class="row content-bleu">
+        <div class="row content-rouge">
           <div class="col-md-6 textecontent">
-            <h3 class="underline" data-aos="fade-down">Projets étudiants</h3>
+            <h3 class="underline_red" data-aos="fade-down">Projets étudiants</h3>
             <br/>
             <p data-aos="zoom-in-right">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
             <br/>
@@ -87,14 +85,11 @@
             <br/>
             <p data-aos="zoom-in-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
             <br/>
-            <p data-aos="fade"><a href="http://informatique-ufrst.u-bourgogne.fr/formations/detail/2" class="bleu underline">Candidater</a></p>
+            <p data-aos="fade"><a href="http://informatique-ufrst.u-bourgogne.fr/formations/detail/2" class=" bleu underline">Candidater</a></p>
           </div>
         </div>
 
-        <div class="row content-bleu">
-          <p data-aos="zoom-in-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. </br>qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia </p>
-        </div>
-
+    
 
 
           <script src="js/jquery.js"></script>

@@ -15,11 +15,6 @@ body, html
 #hero
 {
 
- /*background-image: url("../images/BG.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;*/
  background-color: transparent;
  text-align: center;
  height: 100%;
@@ -68,7 +63,17 @@ h3{
   background-color: #22313F;
   color : #F5F5F5;
   border: 5px solid white;
-  border-image: linear-gradient(to bottom, #972E5F, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, #932C3E, rgba(0, 0, 0, 0)) 1 100%;
+}
+.content{
+  background-color: #F5F5F5;
+  color : #22313F;
+}
+.content-rouge{
+  background-color: #932C3E;
+  color : #F5F5F5;
+  border: 5px solid white;
+  border-image: linear-gradient(to bottom,#22313F , rgba(0, 0, 0, 0)) 1 100%;
 }
 .textecontent{
   margin-top: 2%;
@@ -86,20 +91,41 @@ a{
     font-size: 85%;
 }
 .bleu{
-  /*color:#22313F !important;*/
+  color:#22313F !important;
 }
 .underline{
   text-decoration: underline;
-    text-decoration-color: #972E5F;
+    text-decoration-color: #932C3E;
 }
+.underline_red{
+  text-decoration: underline;
+    text-decoration-color: #22313F;
+}
+
 
 input
 {
   font-family: 'Montserrat', sans-serif;
-  color: #972E5F;
+  color: #932C3E;
 }
 
 #login
 {
   display: none;
+}
+
+.connexion{
+  margin-top: 5%;
+  padding: 15px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 85%;
+  text-align: center;
+  background-color: #22313F;
+
+}
+.btn-primary {
+  color: #fff;
+  background-color: #932C3E !important;
+  border-color: #932C3E !important;
 }
