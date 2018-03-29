@@ -49,6 +49,7 @@
 
         <?php
           include "listfiles.php";
+          include "show_messages.php";
         ?>
 
           <script src="js/jquery.js"></script>
