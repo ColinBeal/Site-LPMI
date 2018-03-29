@@ -10,7 +10,6 @@
   <?php
     include 'head.php';
   ?>
-
       <body>
         <div id="login" class="row content-bleu">
           <?php
@@ -19,6 +18,12 @@
         </div>
         <?php
           include "entete_page.php";
+
+          if ($_SESSION["type"]=="admin")
+          {
+            include "uploadprojet.php";
+            include "formprojet.php";
+          }
 
           $files1 = scandir("projet",1);
           $cpt=0;

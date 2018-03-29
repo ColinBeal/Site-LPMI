@@ -17,7 +17,18 @@
         <a href="http://informatique-ufrst.u-bourgogne.fr/formations/detail/2">Candidater</a>
       </div>
       <div class="col-md-2 nav">
-        <a href="connexion.php">Connexion</a>
+        <a href="connexion.php">
+          <?php
+            if (isset($_SESSION["login"]) && isset($_SESSION["type"]))
+            {
+              echo "Deconnexion";
+            }
+            else
+            {
+              echo "Connexion";
+            }
+          ?>
+        </a>
       </div>
     </div>
   </div>

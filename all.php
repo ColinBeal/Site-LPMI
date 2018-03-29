@@ -51,7 +51,7 @@
           $_SESSION["login"] = $login;
           $_SESSION["password"] = $password;
           $_SESSION["type"] = $row2["type"];
-          header('Location: ?');
+          header('Location: espace.php');
           exit;
         }
         else
