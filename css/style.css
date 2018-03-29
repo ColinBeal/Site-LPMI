@@ -170,3 +170,8 @@ input
     transition: max-height 0.25s ease-out, border 0.25s ease-out;
     background-color: #f1f1f1;
 }
+
+select
+{
+  color : black;
+}
